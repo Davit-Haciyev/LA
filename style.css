@@ -548,5 +548,179 @@ body{
     line-height: 130%;
 }
 @media (max-width: 1280px){
-    
+    body{
+        width: 1280px;
+        height: auto;
+        margin: auto;
+    }
+    .first h1{
+        position: absolute;
+        width: 211.4px;
+        height: 53.86px;
+        left: 72px;
+        top: 56px;
+        
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+    .paragraf{
+        position: absolute;
+        width: 383.41px;
+        height: 216.61px;
+        left: 72px;
+        top: 120.29px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .second svg{
+        position: absolute;
+        width: 211.98px;
+        height: 34.17px;
+        left: 550.39px;
+        top: 299.25px;
+    }
+    .second img{
+        position: absolute;
+        width: 181.86px;
+        height: 182.44px;
+        left: 565.45px;
+        top: 134.19px;
+    }
+    .foot img {
+        display: none;
+    }
+    .foot svg{
+        display: none;
+    }
+    .foot div:nth-child(2){
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 72px;
+        top: 407px;
+    }
+    .foot div:nth-child(3){
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 213.9px;
+        top: 407px;
+    }
+    .foot div:nth-child(4){
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 354.63px;
+        top: 407px;
+    }
+    .foot h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 130%;
+    }
+    .foot p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+    }
+}
+@media(max-width: 375px){
+    .dekstop{
+        position: relative;
+        width: 375px;
+        height: 776px;
+    }
+    .first h1{
+        position: absolute;
+        width: 170.08px;
+        height: 43.34px;
+        left: 36px;
+        top: 56px;
+        
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+    .paragraf{
+        position: absolute;
+        width: 308.47px;
+        height: 174.27px;
+        left: 36px;
+        top: 107.72px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .second svg{
+        position: absolute;
+        width: 199.55px;
+        height: 27.49px;
+        left: 80px;
+        top: 485.8px;
+    }
+    .second img{
+        position: absolute;
+        width: 160.55px;
+        height: 160.29px;
+        left: 101px;
+        top: 338px;
+
+    }
+    .foot img {
+        display: none;
+    }
+    .foot svg{
+        display: none;
+    }
+    .foot div:nth-child(2){
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 35px;
+        top: 544px;
+    }
+    .foot div:nth-child(3){
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 154.16px;
+        top: 544px;
+    }
+    .foot div:nth-child(4){
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 273px;
+        top: 544px;
+    }
+    .foot h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    .foot p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 130%;
+    }
 }
