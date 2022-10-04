@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 body{
-    width: 1440px;
+    width: 100%;
     height: 6575px;
     margin: auto;
 }
 .ayselbesinci{
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 780px;
-    left: -32px;
     top: 4665px;
     background-color: #EFEFEF;
 }
@@ -84,87 +83,80 @@ height: 31px;
 left: 241px;
 top: 360px;
 }
-@media (max-witdh: 1280px){
+@media (max-width: 1280px){
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
     body{
-        width: 834px;
-        height: 451.75px;
+        width: 1280px;
         margin: auto;
+        height: 3800px;
     }
     .ayselbesinci{
         position: relative;
-        width: 834px;
-        height:451.75px;
+        width: 100%;
+        height: 451.75px;
         left: 0px;
         top: 2671px;
         background-color: #EFEFEF;
+        margin: auto;
     }
-.friend {
-    
-position: relative;
-width: 571.64px;
-height: 53.86px;
-left: 70.66px;
-top: 2723px;
-
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 101.38%;
-}
-.ayselface{
-    position: absolute;
-    width: 458.12px;
-    height: 261.2px;
-    left: 72.97px;
-    top: 2797.26px;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 17.38px;
-    background-color: white;
-}
-.dear {
-    position: absolute;
-    width: 405.42px;
-    height: 117.57px;
-    left: 90px;
-    top: 2816px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 150%;
-}
-.book{
-    
-    position: absolute;
-    width: 110.04px;
-    height: 97.88px;
-    left: 88.03px;
-    top: 2943.79px;
-    
+    .friend {
+        position: absolute;
+        width: 571.64px;
+        height: 53.86px;
+        left: 70.66px;
+        top: 52.7px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+    .ayselface{
+        position: absolute;
+        width: 458.12px;
+        height: 261.2px;
+        left: 72.97px;
+        top: 136.26px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 17.38px;
+        background-color: white;
+    }
+    .dear {
+        position: absolute;
+        width: 405.42px;
+        height: 117.57px;
+        left: 26.06px;
+        top: 23.17px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .book{
+        position: absolute;
+        width: 110.04px;
+        height: 97.88px;
+        left: 15.06px;
+        top: 146.53px;
     }
     .page {
-    
         position: absolute;
         width: 204.45px;
         height: 34.17px;
-        left: 2966.95px;
-        top: 215.45px;
-        
+        left: 142.48px;
+        top: 169.7px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
         font-size: 17px;
         line-height: 101.38%;
-        }
-.all{
-    
-position:absolute;
-width: 18.53px;
-height: 17.95px;
-left: 215.45px;
-top: 3001.13px;
-}
+    }
+    .all{
+        position: absolute;
+        width: 18.53px;
+        height: 17.95px;
+        left: 142.48px;
+        top: 203.87px;
+    }
 }
